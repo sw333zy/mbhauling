@@ -1,0 +1,30 @@
+{
+  "name": "mbhauling",
+  "version": "1.0.0",
+  "description": "Mike B Hauling junk removal services website",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server build/ -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw333zy/mbhauling.git"
+  },
+  "keywords": [
+    "junk",
+    "removal",
+    "hauling"
+  ],
+  "author": "J Ridge Productions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sw333zy/mbhauling/issues"
+  },
+  "homepage": "https://github.com/sw333zy/mbhauling#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "http-server": "^0.9.0",
+    "jquery": "^3.2.1"
+  }
+}
